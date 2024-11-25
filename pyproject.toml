@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discord-ext-mobile-status"
+version = "1.0.0"
+description = "A Discord.py extension to make bots appear as if they are on a mobile."
+requires-python = ">=3.8, <=3.12"
+dependencies = ["discord.py"]
+authors = [{ name = "Yateesh Reddy", email = "reddyyateesh999@gmail.com" }]
+keywords = [
+    "discord.py",
+    "discord mobile",
+    "discord mobile status",
+    "discord bot mobile status",
+]
+license = { text = "MIT License" }
+urls = { homepage = "https://github.com/reddyyateesh/discord-ext-mobile-status" }
